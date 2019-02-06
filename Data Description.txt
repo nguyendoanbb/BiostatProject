@@ -1,0 +1,14 @@
+Features Description:
+
+ID: Case identification number. The first 3 digits denote a hospital code
+Z1: Treatment code, 1 = Gamma interferon, 2 = placebo
+Z2: Pattern of inheritance, 1 = X-linked, 2 = autosomal recessive
+Z3: Age, in years
+Z4: Height, in cm
+Z5: Weight, in kg
+Z6: Using corticosteroids at time of study entry, 1 = yes, 2 = no
+Z7: Using prophylactic antibiotics at time of study entry, 1 = yes, 2 = no
+Z8: Gender, 1 = male, 2 = female
+Z9: Hospital category, 1 = US-NIH, 2 = US - other, 3 = Europe-Amsterdam, 4 = Europe-other
+T1: Elapsed time (in days) from randomization to diagnosis of a serious infection, or if censored observation, elapsed time from randomization to censoring date.
+D: Censoring indicator, 1 = Non-censored observation (i.e., a serious infection occurred), 2 = censored observation (i.e., the patient was taken off study)
